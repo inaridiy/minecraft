@@ -1,5 +1,5 @@
 <template>
-  <v-carousel cycle hide-delimiters class="blur">
+  <v-carousel cycle hide-delimiters :height="h" class="blur">
     <v-carousel-item
       class="blur"
       v-for="(image, i) in images"
@@ -23,6 +23,7 @@
 </style>
 <script>
 export default {
+  props: ["h"],
   data: () => ({
     imagenames: [
       "2021-01-06_10.58.16.jpg",

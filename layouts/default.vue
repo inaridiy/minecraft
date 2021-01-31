@@ -4,6 +4,7 @@
       <v-toolbar-title>無名サーバー</v-toolbar-title>
     </v-app-bar>
     <nuxt></nuxt>
+    <Footer />
   </v-app>
 </template>
 <script>
